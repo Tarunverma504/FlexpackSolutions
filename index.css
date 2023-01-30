@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+}
+#outerDiv {
+  width: 96%;
+  margin: auto;
+  height: auto;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  width: 100%;
+  height: 100px;
+}
+
+#logo {
+  width: 10%;
+}
+
+#logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding-top: 5px;
+}
+#navItems {
+  width: 90%;
+  background-image: url("./assets/navbar/bar.png");
+  padding: 15px 0%;
+  height: 40px;
+}
+
+#navItems ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 90%;
+  margin-left: auto;
+}
+
+nav ul li a {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  background-color: white;
+  height: 5px;
+  width: 40px;
+  margin: auto;
+  border-radius: 25px;
+  visibility: visible;
+}
+
+#homeBanner {
+  height: 300px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+#homeBanner img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+#homeBanner span {
+  width: 5px;
+  word-wrap: break-word;
+}
+
+#homeBanner div {
+  color: #2f3b6d;
+  font-weight: 900;
+  font-size: 55px;
+  position: absolute;
+  top: 80px;
+  right: 30px;
+}
+
+#ourFeatures{ 
+  width:100%;
+}
+
+#ourFeatures h1{
+  color:#FFA022;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+
+}
+
+.parentDiv{
+  display: flex;
+  flex-direction:row;
+  align-items:flex-end;
+  padding-top: 80px;
+  width: 100%;
+  height: 400px;
+}
+.child1{
+  width:50%;
+  height: 100%;
+  min-width: 500px;
+
+}
+.imageDiv{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  min-width: 400px;
+  min-width: 520px;
+}
+
+.imageDiv img{
+  width: 100%;
+  height: 100%;
+}
+
+.child2{
+  width:48%;
+  min-width: 520px;
+}
+.rightContentDiv{
+  margin-left: auto;
+  text-align: right;
+  padding:20px 20px;
+  width:490px;
+  word-break:break-all;
+  font-size: 25px;
+}
+
+.rightContentDiv h2{
+  font-size: 50px;
+  color:#FFA022;
+  padding: 20px 0px;
+}
+
+.leftContentDiv{
+  margin-right: auto;
+  text-align: left;
+  padding:20px 20px;
+  width:490px;
+  word-break:break-all;
+  font-size: 25px;
+}
+
+.leftContentDiv h2{
+  font-size: 50px;
+  color:#FFA022;
+  padding: 20px 0px;
+}
+
+#flexpackDiv{
+  padding-top:20px;
+  width:95%;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+#infraContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 85vw;
+}
+
+.infraInnerContainer{
+  width:300px;
+  height: 500px;
+  margin: 20px;
+  position:relative;
+
+}
+
+.infraInnerContainer img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#container div img{
+  height: 100%;
+  width: 100%;
+}
+
+.infraInnerText{
+  position:absolute;
+  text-align: center;
+  color:#2f3b6d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* #footerParentDiv{
+  display:flex;
+  flex-direction: column;
+  background-color: red;
+  height:300px;
+}
+
+#footerLogo{
+  
+} */
+
+
+
+
+/* nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.473);
+  z-index: 3;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  align-content: center;
+  font-size: 20px;
+  padding: 20px;
+  background-image: url("./assets/navbar/bar.png");
+}
+nav ul li a:hover {
+  color: #574cf5;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+#container1 {
+  width: 15%;
+}
+
+#container2 {
+  width: 95%;
+} */
