@@ -1,0 +1,71 @@
+#beautyCosmetics{
+    height: 300px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  z-index:-1;
+}
+
+#beautyCosmetics img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+#beautyDescription{
+  padding-top:80px;
+  width:90%;
+  margin: auto;
+  font-size: 20px;
+  hyphens: auto;
+}
+
+#beautyDescription p{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.innerBeautyDiv{
+  background-image: url("../assets/beautyCosmetics/product_bg1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:400px;
+  width: 55%;
+  min-width:400px;
+  margin: auto;
+  position: relative;
+}
+
+#beautyImgDiv{
+  position: absolute;
+  top:-35px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  height: 500px; 
+  width:300px;
+}
+
+#beautyImgDiv img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+#beautyProductsTable h1{
+  color: #2f3b6d;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 50px;
+}
+#beautyProductsTable{ width:100%; margin: 30px auto;}
+
+#beautyProductsTable td{
+  width: 50%;
+  padding-top:50px;
+  padding-bottom:50px;
+}

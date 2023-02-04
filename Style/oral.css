@@ -1,0 +1,90 @@
+#oralBanner{
+    height: 300px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  z-index:-1;
+}
+
+#oralBanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+#oralDescription{
+    padding-top:80px;
+  width:90%;
+  margin: auto;
+  font-size: 20px;
+  hyphens: auto;
+}
+
+#oralDescription p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rightProductDiv{
+    height:500px;
+    width:55%;
+    min-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    margin-right: auto;
+   
+}
+
+#product1{
+    background-image: url(../assets/oral/_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rightProductDiv div{
+    width:50%;
+    text-align-last: left;
+    justify-content:center;
+}
+
+#outerProductDiv h1{
+    color: #2f3b6d;
+    font-size: 40px;    
+}
+.leftProductDiv{
+    height:500px;
+    width:55%;
+    min-width: 700px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.leftProductDiv div{
+    width:45%;
+    margin-left: auto;
+    text-align-last: right;
+    justify-content:center;    
+}
+
+#product2{
+    background-image: url(../assets/oral/_2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: -5rem;
+}
+
+
+#product3{
+    background-image: url(../assets/oral/_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -2rem;
+}
+

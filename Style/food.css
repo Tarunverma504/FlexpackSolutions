@@ -1,0 +1,95 @@
+#foodBanner{
+    height: 300px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  z-index:-1;
+}
+
+#foodBanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+#foodDescription{
+  padding-top:80px;
+  width:90%;
+  margin: auto;
+  font-size: 20px;
+  hyphens: auto;
+}
+
+#foodDescription p{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.innerFoodrightDiv{
+  width:400px;
+  height: 600px;
+  margin-left: auto;
+  /* background-color: red; */
+}
+
+.innerFoodrightDiv img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.innerFoodLeftDiv{
+  width:400px;
+  height: 600px;
+  margin-right: auto;
+  margin-top:-300px;
+  /* background-color: red; */
+}
+
+.innerFoodLeftDiv img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+#foodProductsTable h1{
+  color: #2f3b6d;
+  margin-top: -55px;
+  text-align: center;
+  font-size: 50px;
+  margin-left: 40px;
+
+}
+
+#foodProductsTable ul{
+  list-style: none;
+
+}
+
+
+
+#foodProductsTable li{
+
+  width:50%;
+  max-width: 600px;
+}
+
+#foodProductsTable ul li::before {
+  content: "\2022";
+  color:#2f3b6d;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  font-size: 50px;
+}
+
+
+
+
+#foodProductsTable{ width:98%; margin: 100px auto -100px auto;}
+
+#foodProductsTable td{
+  width: 50%;
+  align-items: center;
+}
