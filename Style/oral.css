@@ -34,6 +34,7 @@
     align-items: center;
     padding-left: 30px;
     margin-right: auto;
+    margin-bottom: 40px;
    
 }
 
@@ -51,7 +52,7 @@
 
 #outerProductDiv h1{
     color: #2f3b6d;
-    font-size: 40px;    
+    font-size: 31px;    
 }
 .leftProductDiv{
     height:500px;
@@ -66,7 +67,7 @@
 }
 
 .leftProductDiv div{
-    width:45%;
+    width:56%;
     margin-left: auto;
     text-align-last: right;
     justify-content:center;    

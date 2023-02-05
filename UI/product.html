@@ -23,15 +23,25 @@
             </div>
             <div id="navItems">
                 <ul>
-                    <li><a href="../index.html" >Home</a></li>
-                    <li><a href="./product.html">Product</a>
+                    <li><a href="../index.html" >Home</a> </li>
+                    <li>
+                        <a href="#">Product</a>
                         <div class="active"></div>
                     </li>
-                    <li><a href="#" onclick="toggler()">Categories</a></li>
-                    <li><a href="../UI/contactus.html">Contact Us</a></li>
+                    <li id="category">
+                        <a href="#" onclick="toggler()">Categories</a>
+                        <div id="categoryOptions">
+                            <ol>
+                                <li><a href="./oral.html">Oral</a></li>
+                                <li><a href="./food.html">Food</a></li>
+                                <li><a href="./pharmaHealth.html">Pharma & health</a></li>
+                                <li><a href="./beautyCosmetics.html">Beauty & Cosmetics</a></li>
+                            </ol>
+                        </div>  
+                    </li>
+                    <li><a href="./contactus.html">Contact Us</a></li>
                 </ul>
             </div>
-            
         </nav>
 
         <div id="productBanner">
@@ -134,9 +144,9 @@
                     <div id="quickLinks">
                         <h2>Quick Links</h3>
                             <ul>
-                                <li>Home</li>
-                                <li>Product</li>
-                                <li>Categories</li>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="./product.html">Product</a></li>
+                                <li><a href="./oral.html">Categories</a></li>
                             </ul>
                     </div>
 
@@ -145,4 +155,5 @@
         </footer>
     </div>
 </body>
+<script src="../index.js"></script>
 </html>

@@ -9,6 +9,7 @@
     margin-top: 10px;
     position: relative;
     text-align: center;
+    z-index: -1;
   }
   
   #productBanner img {
@@ -18,7 +19,7 @@
   }
 
   #productDescription{
-  padding-top:80px;
+  padding-top:50px;
   width:90%;
   margin: auto;
   font-size: 20px;
@@ -28,7 +29,7 @@
   #outerProductDiv{
     width:100%;
     min-width: 1070px;
-    margin: 150px auto;
+    margin: 100px auto;
     height:380px;
     overflow: hidden;
   }
@@ -125,7 +126,7 @@
   #ProductDetails2Div div{
     width:80%;
     text-align: justify;
-    text-align-last: right;
+    text-align-last: left;
     font-size: 20px;
     float: right;
     margin-right: 10px;

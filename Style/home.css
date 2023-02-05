@@ -4,7 +4,6 @@
   font-family: montserrat, sans-serif;
 }
 
-
 #homeBanner {
   height: 300px;
   margin-top: 10px;
@@ -26,10 +25,10 @@
 #homeBanner div {
   color: #2f3b6d;
   font-weight: 900;
-  font-size: 55px;
+  font-size: 45px;
   position: absolute;
-  top: 80px;
-  right: 30px;
+  top: 95px;
+  right: 80px;
 }
 
 #ourFeatures{ 
@@ -41,7 +40,7 @@
   font-weight: 900;
   font-size: 40px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 36px;
 
 }
 
@@ -75,15 +74,16 @@
 .child2{
   width:48%;
   min-width: 520px;
+  margin-right: 50px;
 }
 .rightContentDiv{
   margin-left: auto;
   hyphens: auto;
   text-align:justify;
-  text-align-last: right;
+  text-align-last: left;
   padding:20px 20px;
   width:490px;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .rightContentDiv h2{
@@ -99,7 +99,8 @@
   text-align-last: left;
   padding:20px 20px;
   width:490px;
-  font-size: 25px;
+  font-size: 23px;
+  margin-left: 50px;
 }
 
 .leftContentDiv h2{
@@ -112,7 +113,7 @@
   padding-top:20px;
   width:95%;
   margin: auto;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   
 }
@@ -150,6 +151,6 @@
   position:absolute;
   text-align: center;
   color:#2f3b6d;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
