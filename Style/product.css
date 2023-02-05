@@ -131,3 +131,14 @@
     float: right;
     margin-right: 10px;
   }
+
+
+  @media screen and (max-width: 1500px){
+    #outerProductDiv{
+      width:100%;
+      min-width: 1070px;
+      margin: 100px auto;
+      height:400px;
+      overflow: hidden;
+    }
+  }
